@@ -1,0 +1,8 @@
+{
+  "liveServer.settings.ChromeDebuggingAttachment": false,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.port": 0,
+  "files.exclude": {
+    "**/.git": false,
+  }
+}

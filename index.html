@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--
+    - primary meta tags
+    -->
+    <title>This is Ken Lin</title>
+    <meta name="title" content="This is Ken Lin" />
+    <meta name="description" content="This is Ken lin's personal website" />
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+
+    <!--
+      - google font link
+    -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+    -->
+    <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.jpg" />
+   -->
+  </head>
+  <body id="top">
+    <!-- 
+    - #HEADER
+    -->
+    
+    <header class="header " data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="147"
+            height="32"
+            alt="logo"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="84"
+                height="26"
+                alt="logo"
+              />
+            </a>
+
+            <button 
+              class="nav-close-btn" 
+              aria-label="close menu" 
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button> 
+          </div>
+              
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-i18n="nav.0" data-nav-link >Home</a>
+            </li>
+            <li>
+              <a href="#projects" class="navbar-link" data-i18n="nav.1" data-nav-link>Works</a>
+            </li>
+            <li>
+              <a href="#about" class="navbar-link" data-i18n="nav.2" data-nav-link>About</a>
+            </li>
+          </ul> 
+        </nav>
+        
+        <div class="header-actions">
+
+          <button 
+              class="nav-language-btn" 
+              aria-label="language" 
+            >
+              <ion-icon name="language-sharp" ></ion-icon>
+            </button> 
+
+          <button 
+            class="nav-open-btn btn:hover" 
+            aria-label="open menu" 
+            data-nav-toggler
+          >
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+          </button>
+        </div>
+      </div>
+
+        
+
+        <div class="overlay" data-overlay data-nav-toggler></div>
+      </div>
+      
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+        -->
+        <div class="hero" aria-label="home" id="home">
+          <div class="container">
+            <div class="banner-outline has-after">
+              <div
+                class="banner img-holder has-after"
+                style="--width: 500; --height: 500"
+                data-tilt
+              >
+                <img
+                  src="./assets/images/hero-banner.jpg"
+                  width="500"
+                  height="500"
+                  alt="A Ghibli style illustration of Ken with his cat"
+                  class="img-cover"
+                />
+              </div>
+            </div>
+
+            <div class="hero-content">
+              <!-- <h1 class="h1 title hover-2" >Hi</h1> -->
+              <div class="content-intro">
+                <h1 class="h1 title"data-i18n="hero.hi">Hi there, this is Ken</h1>
+                <h1 class="h1 title"><span data-i18n="hero.he">He</span><span data-typing></span> </h1>             
+                <div class="intro-text" data-i18n="hero.intro">
+                  Over 10 years as a UX designer, 
+                  Ken has crafted user-centered digital experiences for SaaS, retail, and gaming products, 
+                  driving user's experience strategy by translating design vision into actionable alignment across teams. 
+                  He currently works for Ubisoft.
+                </div>
+                <div class="wrapper">
+                  <!-- <div class="placeholder"></div> -->
+                  <a href="https://zclin.notion.site/My-Resume-2259d1bd9f0a80759635fecf2a45248f" 
+                     class="btn btn:hover" target="_blank" alt="Resume" title="Resume" 
+                  >
+                    <span class="span"data-i18n="resume">My Resume</span>   
+                    <!-- <ion-icon
+                        name="cloud-download-outline"
+                        aria-hidden="true"
+                    ></ion-icon> -->
+                  </a>
+                  <a href="https://www.linkedin.com/in/kenlin1030/" target="_blank" class="btn btn:hover" alt="Linkedin" title="Linkedin"> 
+                    <ion-icon
+                        name="logo-linkedin"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://www.instagram.com/zclin1030/" target="_blank" class="btn btn:hover" alt="Instagram" title="Instagram"> 
+                    <ion-icon
+                        name="logo-instagram"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                  <a href="mailto:zclin1991@outlook.com" class="btn btn:hover" alt="Email" title="Email"> 
+                    <ion-icon
+                        name="mail-sharp"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- 
+        - #SKILLS
+        -->
+        <section class="section skills " aria-label="skills" id="skills">        
+          <div class="container">
+            <!-- <div class="section-title-wrapper">
+              <h2 class="h2 section-title">SKILLS</h2>
+            </div> -->
+    
+            <div class="skills-content">
+              <ul class="skill-list">
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.0">UX/UI Design</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.1">Human-Centered Design</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.2">Design Sprint</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.3">Design System</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.4">User Research</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                  <span class="skill-text" data-i18n="skills.5">Usability Testing</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.6">Prototyping</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.7">Web Accessibility</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text" data-i18n="skills.8">Information Architecture</span>
+                  </div>
+                </li>
+                
+                
+                <li class="skill-item">
+                  <div class="skill-wrapper">
+                    <span class="skill-text">Figma</span>
+                  </div>
+                </li>
+                <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">Adobe Photoshop</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">Adobe Illustrator</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">HTML/CSS</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">JavaScript</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">Matomo</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <div class="skill-wrapper">
+                  <span class="skill-text">Stable Diffusion</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        </section>
+
+        <!-- 
+        - #PROJECTS
+        -->
+        <section class="section project " aria-label="project" id="projects">  
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="h2 section-title" data-i18n="projects.title">SELECTED WORKS</h2>
+              <div class="wrapper">
+                <!-- <div class="placeholder"></div> -->
+                <a href="#" class="btn btn:hover" alt="View More" data-i18n-link="viewMore" >
+                  <span class="span" data-i18n="projects.viewMore">View More</span>   
+                  <!-- <ion-icon
+                      name="cloud-download-outline"
+                      aria-hidden="true"
+                  ></ion-icon> -->
+                </a>
+                
+              </div>
+            </div>
+            <ul class="slider-list">
+              <li class="slider-item">
+                <div class="project-card ">
+                  <div 
+                    class="card-banner img-holder has-before" 
+                    style="--width:1000; --height:763"
+                  >
+                    <img 
+                      src="./assets/images/project-1.jpg" 
+                      width="1000" 
+                      height="763" 
+                      loading="lazy" 
+                      alt="Wave: Load Testing"
+                      class="img-cover"
+                    />
+
+                    <a href="#" class="btn btn:hover"  >
+                      <span class="span" data-i18n="projects.details">Project Details</span>
+
+                      <ion-icon
+                        name="arrow-forward" 
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+
+                    <h4 class="title h4">
+                      <a href="#" class="card-title" data-i18n="projects.0.title"
+                        >Wave: Load Testing</a
+                      >
+                    </h4>
+                    <p class="card-subtitle" data-i18n="projects.0.subtitle">Ubisoft Internal Tool</p>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="project-card">
+                  <div 
+                    class="card-banner img-holder has-before" 
+                    style="--width:1000; --height:763"
+                  >
+                    <img 
+                      src="./assets/images/project-1.jpg" 
+                      width="1000" 
+                      height="763" 
+                      loading="lazy" 
+                      alt="Wave: Monitoring"
+                      class="img-cover"
+                    />
+
+                    <a href="#" class="btn btn:hover">
+                      <span class="span" data-i18n="projects.details">Project Details</span>
+
+                      <ion-icon
+                        name="arrow-forward" 
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+
+                    <h4 class="title h4">
+                      <a href="#" class="card-title" data-i18n="projects.1.title"
+                        >Wave: Monitoring</a
+                      >
+                    </h4>
+                    <p class="card-subtitle" data-i18n="projects.1.subtitle">Ubisoft Internal Tool</p>
+
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="project-card ">
+                  <div 
+                    class="card-banner img-holder has-before" 
+                    style="--width:1000; --height:763"
+                  >
+                    <img 
+                      src="./assets/images/project-1.jpg" 
+                      width="1000" 
+                      height="763" 
+                      loading="lazy" 
+                      alt="Internal Design Systems"
+                      class="img-cover"
+                    />
+
+                    <a href="#" class="btn btn:hover">
+                      <span class="span" data-i18n="projects.details">Project Details</span>
+
+                      <ion-icon
+                        name="arrow-forward" 
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h4 class="title h4">
+                      <a href="#" class="card-title" data-i18n="projects.2.title"
+                        >Internal Design Systems</a
+                      >
+                    </h4>
+                    <p class="card-subtitle" data-i18n="projects.2.subtitle">Design Systems for Ubisoft</p>
+                </div>
+              </li>
+              <li class="slider-item">
+                <div class="project-card ">
+                  <div 
+                    class="card-banner img-holder has-before" 
+                    style="--width:1000; --height:763"
+                  >
+                    <img 
+                      src="./assets/images/project-1.jpg" 
+                      width="1000" 
+                      height="763" 
+                      loading="lazy" 
+                      alt="Huacai Life"
+                      class="img-cover"
+                    />
+
+                    <a href="#" class="btn btn:hover">
+                      <span class="span" data-i18n="projects.details">Project Details</span>
+
+                      <ion-icon
+                        name="arrow-forward" 
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    
+                    <h4 class="title h4">
+                      <a href="#" class="card-title" data-i18n="projects.3.title"
+                        >Huacai Life</a
+                      >
+                    </h4>
+                    <p class="card-subtitle" data-i18n="projects.3.subtitle">Stock Trading & Investing App</p>
+                </div>
+              </li>
+            </ul>
+            
+          </div>      
+          
+        </section>
+
+        <!-- 
+        - #ABOUT
+        -->
+        <section class="section about " aria-label="about" id="about">  
+          <div class="container">
+            <div class="section-title-wrapper">
+              <h2 class="h2 section-title" data-i18n="about.title">ABOUT ME</h2>
+            </div>
+            <div class="about-content">
+              <div class="banner-outline has-after">
+                <div
+                  class="banner img-holder has-after"
+                  style="--width: 638; --height: 851"
+                  data-tilt
+                >
+                  <img
+                    src="./assets/images/about-image.jpg"
+                    width="638"
+                    height="851"
+                    alt="A Ghibli style illustration of Ken with his cat"
+                    class="img-cover"
+                  />
+                </div>
+              </div>
+            
+              <div class="about-text">
+                <h4 class="h4 title"  data-i18n="about.hello">Hello again! &#x1F44B; </h4>
+                <p data-i18n="about.p0">
+                  I truly believe teamwork is critical to success. 
+                  Working alongside talented people to tackle challenges? It's really rewarding. 
+                  I love sharing my design ideas and past experiences – chatting with colleagues from different functions always helps me learn new things. 
+                  In my view, just being  busywork all day doesn't equal efficiency. That's why working smarter beats working harder.    
+                </p>
+                <p data-i18n="about.p1">
+                  Outside of work, I've got tons of hobbies. 
+                  Ever since my older cousins took me to arcade when I was 3, I've been a gamer. 
+                  I'm into all forms of pop culture — movies, TV series, music, books, and anime! 
+                  I never knew I was a cat person until one day, a little kitten showed up at my doorstep. (cat distribution system works!)
+                  And I love traveling, with the goal to explore more cities and countries. 
+                     
+                </p>
+                <p data-i18n="about.p2">
+                  Are you looking for a designer who works smart but stays humble, and has a curious soul? 
+                  If so, please get in touch!
+                </p>
+                
+                <div class="wrapper">
+                  <!-- <div class="placeholder"></div> -->
+                  <a href="https://zclin.notion.site/My-Resume-2259d1bd9f0a80759635fecf2a45248f" 
+                     class="btn btn:hover" target="_blank" alt="Resume" title="Resume"
+                  >
+                    <span class="span"data-i18n="resume">My Resume</span>   
+                    <!-- <ion-icon
+                        name="cloud-download-outline"
+                        aria-hidden="true"
+                    ></ion-icon> -->
+                  </a>
+                  <a href="https://www.linkedin.com/in/kenlin1030/" target="_blank" class="btn btn:hover" alt="Linkedin" title="Linkedin"> 
+                    <ion-icon
+                        name="logo-linkedin"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                  <a href="https://www.instagram.com/zclin1030/" target="_blank" class="btn btn:hover" alt="Instagram" title="Instagram"> 
+                    <ion-icon
+                        name="logo-instagram"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                  <a href="mailto:zclin1991@outlook.com" class="btn btn:hover" alt="Email" title="Email"> 
+                    <ion-icon
+                        name="mail-sharp"
+                        aria-hidden="true"
+                    ></ion-icon>
+                  </a>
+                </div>
+                
+              </div>
+              
+            </div>
+
+
+
+          </div>
+        </section>
+        
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+    -->
+    <footer class="footer">
+      <div class="container">
+        <p class="copyright">© 2025 Lin Ken. All rights reserved.</p>
+
+        <a href="#top" class="back-top-btn">
+          <span class="span" data-i18n="footer.backTop">Back To Top</span>
+
+          <ion-icon name="arrow-up" aria-hidden="true"></ion-icon> 
+        </a>
+      </div>
+    </footer>
+    <!-- 
+    - #CUSTOM CURSOR 
+    -->
+
+    <div class="cursor-dot" data-cursor></div>
+    <div class="cursor-outline" data-cursor></div>
+
+    <!-- 
+    - custom js link
+    -->
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+    -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+
