@@ -141,8 +141,9 @@ const LANG_DATA = {
       0: { title: "Wave: Load Testing", subtitle: "Ubisoft Internal Tool" },
       1: { title: "Wave: Dynamic CCU", subtitle: "Ubisoft Internal Tool" },
       2: { title: "Wave: Design System", subtitle: "Design Systems in Ubisoft" },
-      3: { title: "Hua Cai Ren Sheng: Design System", subtitle: "Stock Trading & Investing App" },
-      4: { title: "Hua Cai Ren Sheng Lite", subtitle: "股票交易理财投资 App"}
+      3: {title: "Wave: Dashboard", subtitle: "Ubisoft Internal Tool"},
+      4: { title: "Hua Cai Ren Sheng: Design System", subtitle: "Stock Trading & Investing App" },
+      5: { title: "Hua Cai Ren Sheng Lite", subtitle: "股票交易理财投资 App"}
     },
     about: {
       title: "ABOUT ME",
@@ -163,6 +164,7 @@ const LANG_DATA = {
       wlt: "https://zclin.notion.site/Wave-Load-Test-2269d1bd9f0a8150a351d8a3e426751a",
       wdc: "https://zclin.notion.site/Wave-Dynamic-CCU-2399d1bd9f0a809b9729c00e2e33ec32",
       wds: "https://zclin.notion.site/Wave-Design-System-2379d1bd9f0a80198494f80d89e58c79",
+      dcm: "https://zclin.notion.site/Wave-Dashboard-23c9d1bd9f0a807a9b7bd16bcbb3e242",
       hds: "https://zclin.notion.site/Hua-Cai-Ren-Sheng-Design-System-2359d1bd9f0a806ab525ca20166d85cc",
       hl: "https://zclin.notion.site/Hua-Cai-Ren-Sheng-Lite-2359d1bd9f0a80a3a310e708e827bb91"
 
@@ -199,8 +201,9 @@ const LANG_DATA = {
       0: { title: "Wave：负载测试", subtitle: "育碧内部工具" },
       1: { title: "Wave：动态 CCU", subtitle: "育碧内部工具" },
       2: { title: "Wave：设计系统", subtitle: "育碧设计系统" },
-      3: { title: "华彩人生：设计系统 ", subtitle: "股票交易理财投资 App" },
-      4: { title: "华彩人生 Lite", subtitle: "股票交易理财投资 App"}
+      3: {title: "Wave：仪表盘", subtitle: "育碧内部工具"},
+      4: { title: "华彩人生：设计系统 ", subtitle: "股票交易理财投资 App" },
+      5: { title: "华彩人生 Lite", subtitle: "股票交易理财投资 App"}
     },
     about: {
       title: "关于我",
@@ -221,6 +224,7 @@ const LANG_DATA = {
       wlt: "https://zclin.notion.site/Wave-2329d1bd9f0a807f87eddaae0335cec1",
       wdc: "https://zclin.notion.site/Wave-CCU-2389d1bd9f0a80a7983dc9b4697e300b",
       wds: "https://zclin.notion.site/Wave-2379d1bd9f0a80b9b9f1e96f9ffe621d?pvs=25",
+      dcm: "https://zclin.notion.site/Wave-23b9d1bd9f0a804880fec99a60c241e5",
       hds: "https://zclin.notion.site/2359d1bd9f0a80cfb70bc82122dcc88a",
       hl: "https://zclin.notion.site/Lite-9eb383d6ce2c408ba2fef4beb42f5fe2?pvs=25"
       
